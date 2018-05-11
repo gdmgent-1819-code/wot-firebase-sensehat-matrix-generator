@@ -37,8 +37,12 @@ const matrixId = '2eUypCyuAFOY6Kt0rM3k';
 const observer = matricesRef.doc(matrixId).onSnapshot(docSnapshot => {
   const id = docSnapshot.id;
   const matrix = { id, ...docSnapshot.data() };
-  //console.log(matrix);
   log(chalk`
+|============================|
+| Update Matrix
+| id: ${ matrix.id }
+| nRows: ${ matrix.nRows }, ncols: ${matrix.nCols}
+|----------------------------|
 ${generateChalkMatrix(8, 8, matrix.pattern)}
   `);
 }, err => {

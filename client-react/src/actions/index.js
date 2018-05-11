@@ -39,7 +39,6 @@ export const updateMatrix = (obj) => async dispatch => {
       docRef.update({
         pattern: obj.pattern
       }).then((ref) => {
-        console.log(ref);
         const id = doc.id;
         dispatch({
           type: UPDATE_MATRIX,
