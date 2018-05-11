@@ -1,0 +1,10 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyB8TYS3-6xV76_YhpD0zmYFPq8JtMBXeo8",
+    "authDomain": "wot-1819.firebaseapp.com",
+    "databaseURL": "https://wot-1819.firebaseio.com",
+    "projectId": "wot-1819",
+    "storageBucket": "",
+    "messagingSenderId": "827619480457"
+  }
+}

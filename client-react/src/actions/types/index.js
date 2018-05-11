@@ -1,0 +1,5 @@
+export const FETCH_MATRICES = 'FETCH_MATRICES';
+export const FETCH_MATRIX = 'FETCH_MATRIX';
+export const CREATE_MATRIX = 'CREATE_MATRIX';
+export const DELETE_MATRIX = 'DELETE_MATRIX';
+export const UPDATE_MATRIX = 'UPDATE_MATRIX';

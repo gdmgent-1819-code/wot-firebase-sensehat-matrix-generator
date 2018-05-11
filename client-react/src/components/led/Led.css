@@ -1,0 +1,9 @@
+.Led {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 4px solid rgba(0,0,0,0.7);
+  border-radius: 4px;
+
+  text-indent: -9999em;
+}
